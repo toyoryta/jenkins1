@@ -2,7 +2,8 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
-    "target":"es5",
+    "noEmitHelpers": true,
+    "target":"es6",
     "types": [
       "jasmine",
       "node"
