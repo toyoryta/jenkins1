@@ -8,12 +8,12 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-    "module": "ES2015",
+    "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es5",
+    "target": "es6",
     "lib": [
-      "es5",
+      "es6",
       "dom"
     ]
   },
